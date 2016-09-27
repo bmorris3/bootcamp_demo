@@ -8,7 +8,8 @@ def print_the_number_of_this_room():
     raise NotImplementedError
 
 def split_this_string_at_each_space(input_string):
-    raise NotImplementedError
+	split_string = input_string.split(' ')
+    return split_string
 
 def take_the_average_of_these_numbers(a, b):
     raise NotImplementedError
