@@ -21,7 +21,10 @@ def print_the_time_now_using_astropy():
     raise NotImplementedError
 
 def return_the_minimum_of_two_numbers(a, b):
-    raise NotImplementedError
+    if a < b:
+        return a
+    else:
+        return b
 
 def return_the_std_of_two_numbers(a, b):
     raise NotImplementedError
