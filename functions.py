@@ -11,7 +11,9 @@ def split_this_string_at_each_space(input_string):
     raise NotImplementedError
 
 def take_the_average_of_these_numbers(a, b):
-    raise NotImplementedError
+    array   = [a,b]
+    average = np.avg(array)
+    return(average)
 
 def print_the_time_now_using_astropy():
     raise NotImplementedError
