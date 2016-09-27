@@ -2,7 +2,8 @@
 # Replace the "raise NotImplementedError" line with the correct code!
 
 def print_the_instructors_name():
-    raise NotImplementedError
+    print('=' * 40);
+    print('The instructor\'s name is Brett Master Morris');
 
 def print_the_number_of_this_room():
     raise NotImplementedError
